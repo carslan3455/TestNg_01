@@ -1,0 +1,7 @@
+<suite name="All Test Suite">
+    <test name="Pom Test">
+        <classes>
+            <class name="Mentor.BurakBy.POM.pomSelenium"> </class>
+        </classes>
+    </test>
+</suite>

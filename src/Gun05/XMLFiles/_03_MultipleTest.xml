@@ -1,0 +1,16 @@
+
+<suite name="suite1">            <!-- Tüm testleri kapsayan bölüm  -->
+
+    <test name="test1">          <!-- test1 kapsayan bölüm  -->
+        <classes>                <!-- calisacak classlarin yazildigi bölüm  -->
+            <class name="Gun05._01_Intro"></class>
+
+        </classes>
+    </test>
+    <test name="test2">          <!-- test1 kapsayan bölüm  -->
+        <classes>                <!-- calisacak classlarin yazildigi bölüm  -->
+
+            <class name="Gun05._02_Intro"></class>
+        </classes>
+    </test>
+</suite>

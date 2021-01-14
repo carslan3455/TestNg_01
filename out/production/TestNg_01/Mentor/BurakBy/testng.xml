@@ -1,0 +1,17 @@
+
+<suite name="BenimTestNG Suitim">
+    <test   name="TestNG_Giris">
+        <classes>
+            <class name="Mentor.BurakBy.TestNg.TestNg_Ex"></class>
+            <class name="Mentor.BurakBy.TestNg.Matematik_Testi"></class>
+
+        </classes>
+    </test>
+    <test   name="TestNG_FarkliTest">
+        <classes>
+
+            <class name="Mentor.BurakBy.Selenium.Test1"></class>
+            <class name="Mentor.BurakBy.Selenium.Test2"></class>
+        </classes>
+    </test>
+</suite>

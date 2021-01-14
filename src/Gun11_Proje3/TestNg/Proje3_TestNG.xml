@@ -1,0 +1,15 @@
+
+<suite name="Proje3_POM" parallel="classes" thread-count="2">
+    <test name="Task1_2 POM Parallel Testing">
+        <parameter name="browser" value="chrome"> </parameter>
+        <parameter name="username" value="carslan3049@gmail.com"> </parameter>
+        <parameter name="password" value="arslan.123"> </parameter>
+        <parameter name="message" value="Yine bir projede karsilastik..."> </parameter>
+        <classes>
+            <class name="Gun11_Proje3.TestNg.Proje3_Task_1"> </class>
+            <class name="Gun11_Proje3.TestNg.Proje3_Task_2"> </class>
+
+        </classes>
+    </test>
+
+</suite>

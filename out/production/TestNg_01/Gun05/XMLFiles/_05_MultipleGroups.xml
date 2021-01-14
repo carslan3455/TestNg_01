@@ -1,0 +1,40 @@
+
+<suite name="suite1">            <!-- Tüm testleri kapsayan bölüm  -->
+
+    <test name="test1">          <!-- test1 kapsayan bölüm  -->
+
+        <groups>
+            <run>
+                <include name = "Regression"></include>   <!-- todo include= dahil et; exclude=et hariç tut -->
+            </run>
+
+        </groups>
+
+
+        <classes>                <!-- calisacak classlarin yazildigi bölüm  -->
+
+            <class name="Gun05._03_Groups"></class>
+
+        </classes>
+
+    </test>
+
+    <test name="test2">          <!-- test1 kapsayan bölüm  -->
+
+        <groups>
+            <run>
+                <include name = "SmokeTest"></include>   <!-- todo include= dahil et; exclude=et hariç tut -->
+            </run>
+
+        </groups>
+
+
+        <classes>                <!-- calisacak classlarin yazildigi bölüm  -->
+
+            <class name="Gun05._03_Groups"></class>
+
+        </classes>
+
+    </test>
+
+</suite>

@@ -1,0 +1,23 @@
+<suite name="My Suite">
+    <tests name="My Tests">
+        <test name="Test1">
+            <classes>
+
+                <class name="Mentor.OmerBy.TestNG._04_Testler_assert"/>
+                <class name="Mentor.OmerBy.TestNG._02_Testler_enabled"/>
+
+            </classes>
+
+        </test>
+        <test name="Test2">
+            <classes>
+                <class name="Mentor.OmerBy.TestNG._01_TestNg_Hiyerarsi"/>
+                <class name="Mentor.OmerBy.TestNG._03_Testler_priority"/>
+            </classes>
+        </test>
+
+
+    </tests>
+
+
+</suite>

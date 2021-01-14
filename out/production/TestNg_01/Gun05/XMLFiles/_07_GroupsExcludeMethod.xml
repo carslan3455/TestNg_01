@@ -1,0 +1,27 @@
+
+<suite name="suite1">            <!-- Tüm testleri kapsayan bölüm  -->
+
+    <test name="test1">          <!-- test1 kapsayan bölüm  -->
+
+        <groups>
+            <run>
+                <include name = "SmokeTest"></include>   <!-- todo include= dahil et; exclude=et hariç tut -->
+            </run>
+
+        </groups>
+
+
+        <classes>                <!-- calisacak classlarin yazildigi bölüm  -->
+
+            <class name="Gun05._03_Groups"></class>
+            <methods>
+                <exclude name = "Test3"> </exclude>     <!-- todo SmokeTest grubunda Test3 haricindekiler calissin -->
+            </methods>
+
+        </classes>
+
+
+
+    </test>
+
+</suite>

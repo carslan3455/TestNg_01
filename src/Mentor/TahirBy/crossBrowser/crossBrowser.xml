@@ -1,0 +1,8 @@
+
+<suite name="Suite1">
+    <test name="Test1">
+        <classes>
+            <class name="Mentor.TahirBy.crossBrowser.verifyTitle"/>
+        </classes>
+    </test>
+</suite>

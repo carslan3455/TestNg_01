@@ -1,0 +1,14 @@
+
+<suite name="Grouping">
+    <test name="Groups">
+        <groups>
+            <run>
+                <include name = "Regression"> </include>
+            </run>
+        </groups>
+        <classes>
+            <class name="Mentor.TahirBy.xmlFile.Groups"> </class>
+
+        </classes>
+    </test>
+</suite>

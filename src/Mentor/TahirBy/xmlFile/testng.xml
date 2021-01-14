@@ -1,0 +1,11 @@
+
+<suite name="All Test Suite">
+    <test name="Test ABC ">
+        <classes>
+            <class name="Mentor.TahirBy.xmlFile.ClassA"> </class>
+            <class name="Mentor.TahirBy.xmlFile.ClassB"> </class>
+            <class name="Mentor.TahirBy.xmlFile.ClassC"> </class>
+
+        </classes>
+    </test>
+</suite>

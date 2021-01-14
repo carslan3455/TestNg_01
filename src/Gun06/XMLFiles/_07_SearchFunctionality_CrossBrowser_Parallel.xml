@@ -1,0 +1,20 @@
+
+<suite name="suite1" parallel="tests" thread-count="2">
+    <!--   todo  parallel="tests"  : paralel çalıştırılacak birimler
+      todo   thread-count="2"  : aynı anda kaç birim çalışacak   -->
+
+    <test name="test1">
+        <parameter name="arananKelime" value = "samsung"> </parameter>
+        <parameter name="browser" value="chrome"> </parameter>
+        <classes>
+            <class name="Gun06._04_SearchFunctionality"> </class>
+        </classes>
+    </test>
+    <test name="test2">
+        <parameter name="arananKelime" value = "samsung"> </parameter>
+        <parameter name="browser" value="firefox"> </parameter>
+        <classes>
+            <class name="Gun06._04_SearchFunctionality"> </class>
+        </classes>
+    </test>
+</suite>

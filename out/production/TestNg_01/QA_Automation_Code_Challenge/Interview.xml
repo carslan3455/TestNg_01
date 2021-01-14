@@ -1,0 +1,8 @@
+
+<suite name="All Test Suite">
+    <test name="Challenge">
+        <classes>
+            <class name="QA_Automation_Code_Challenge.Interview_Challange">  </class>
+        </classes>
+    </test>
+</suite>

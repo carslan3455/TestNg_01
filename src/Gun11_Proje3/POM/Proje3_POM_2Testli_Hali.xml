@@ -1,0 +1,22 @@
+<suite name="Proje3_POM" parallel="tests" thread-count="2">
+    <test name="Task1">
+        <parameter name="browser" value="chrome"> </parameter>
+        <parameter name="username" value="carslan3049@gmail.com"> </parameter>
+        <parameter name="password" value="arslan.123"> </parameter>
+        <parameter name="message" value="Yine bir projede karsilastik..."> </parameter>
+        <classes>
+            <class name="Gun11_Proje3.POM.Proje3_Task1_POM"> </class>
+
+        </classes>
+    </test>
+    <test name="Task2">
+        <parameter name="browser" value="chrome"> </parameter>
+        <parameter name="username" value="carslan3049@gmail.com"> </parameter>
+        <parameter name="password" value="arslan.123"> </parameter>
+
+        <classes>
+            <class name="Gun11_Proje3.POM.Proje3_Task2_POM"> </class>
+        </classes>
+    </test>
+
+</suite>
